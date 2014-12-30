@@ -11,13 +11,11 @@ equivalent version of the program that can be executed by the compiler
 tokens can be described as a Finite-State Machine. The scanner reads
 the input character by character, determining what type of element
 each represents and converts the information into a token to be handled
-by the syntax analyzer (parser) to examine input elements and verify
-their legality. 
+by the syntax analyzer (parser) to examine input elements and verify their legality. 
 ------------------------------------------------------------------------
 OVERVIEW:
 This program implements a Lexical Analysis Scanner to read a subset of the
-C language: identifiers, decimal integers, octal integers, block-style comments, and basic arithmetic operators. The scanner is implemented using 
-a transition matrix. 
+C language: identifiers, decimal integers, octal integers, block-style comments, and basic arithmetic operators. The scanner is implemented using a transition matrix. 
 ------------------------------------------------------------------------
 FILES:
 -classes.h - define names for character classes
@@ -32,5 +30,4 @@ function, display matrix function
 -scanner.h - scanner function
 -tm.1 - example matrix
 -tokenize.c - Verifies command-line arguments, then reads indicated file
- and builds the transition matrix. Processes characters from standard
- input. 
+ and builds the transition matrix. Processes characters from standard input. 
