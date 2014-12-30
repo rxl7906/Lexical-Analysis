@@ -4,15 +4,15 @@ Language processing programs (such as compilers, interpreters, and assemblers) e
 
 ## Installation
 
-1) Download MinGW to obtain the GNU Compiler Collection(GNU) for compiling C programs. 
-2) Download zip file.
+1. Download MinGW to obtain the GNU Compiler Collection(GNU) for compiling C programs. 
+2. Download zip file.
 
 ## Usage
 
-1) Use header.mak to generate the make file and use the make file to create the executable. 
-2) Type "./tokenize tm.1" to create a transition matrix. (Top row are the classes, d = discard, s = save, the number is the next state. 
-3) Type an identifier, decimal integer, octal integer, block-style comment, or arithmetic operator. 
-4) The output will show the transition it went through in the transition matrix. 
+1. Use header.mak to generate the make file and use the make file to create the executable. 
+2. Type "./tokenize tm.1" to create a transition matrix. (Top row are the classes, d = discard, s = save, the number is the next state. 
+3. Type an identifier, decimal integer, octal integer, block-style comment, or arithmetic operator. 
+4. The output will show the transition it went through in the transition matrix. 
 
 ## History
 
